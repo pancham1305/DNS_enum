@@ -4,7 +4,7 @@
 pip install dnspython
 ```
 ## Usage
-- python3 main.py <domainname>
+- python3 main.py \<domainname\>
 for example: 
 ```
 python3 main.py google.com
