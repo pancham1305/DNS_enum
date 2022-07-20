@@ -21,5 +21,6 @@ for i in records_types:
     except dns.resolver.NXDOMAIN:
         print(f'{domain} does not exist')
         quit()
-
+    except dns.resolver.LifetimeTimeout:
+        pass
 
