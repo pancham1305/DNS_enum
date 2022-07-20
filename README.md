@@ -1,1 +1,4 @@
-# DNS_enum
+## Requirements
+```
+`pip install dnspython`
+```
