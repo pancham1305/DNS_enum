@@ -26,3 +26,7 @@ for i in records_types:
     except dns.resolver.NoNameservers:
         print('Please Provide a Valid URL')
         quit()
+    except dns.name.LabelTooLong:
+        print('URL too long')
+        quit()
+
