@@ -23,4 +23,6 @@ for i in records_types:
         quit()
     except dns.resolver.LifetimeTimeout:
         pass
-
+    except dns.resolver.NoNameservers:
+        print('Please Provide a Valid URL')
+        quit()
